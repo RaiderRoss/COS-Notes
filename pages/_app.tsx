@@ -1,5 +1,4 @@
 import type { AppProps } from "next/app";
-
 import { NextUIProvider } from "@nextui-org/system";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { useRouter } from "next/router";
@@ -12,8 +11,15 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <NextUIProvider navigate={router.push}>
-      <NextThemesProvider>
-        <Component {...pageProps} />
+      <NextThemesProvider
+        defaultTheme="light"              // Set default theme to light
+        enableSystem={false}              // Disable automatic system theme detection
+        disableTransitionOnChange={true}  // Disable transitions during theme changes
+        attribute="class"                 // Use className for theme switching
+      >
+        <div className={`${fontSans.style.fontFamily} ${fontMono.style.fontFamily}`}>
+          <Component {...pageProps} />
+        </div>
       </NextThemesProvider>
     </NextUIProvider>
   );

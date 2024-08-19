@@ -1,9 +1,8 @@
 import { FC, useState, useEffect } from "react";
 import { VisuallyHidden } from "@react-aria/visually-hidden";
 import { SwitchProps, useSwitch } from "@nextui-org/switch";
-import { useTheme } from "next-themes";
+import { ThemeProvider, useTheme } from "next-themes";
 import clsx from "clsx";
-
 import { SunFilledIcon, MoonFilledIcon } from "@/components/icons";
 
 export interface ThemeSwitchProps {
@@ -83,3 +82,17 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
     </Component>
   );
 };
+
+// Wrapping your application with ThemeProvider and setting defaultTheme to "light"
+
+import { AppProps } from "next/app";
+
+const MyApp: FC<AppProps> = ({ Component, pageProps }) => {
+  return (
+    <ThemeProvider defaultTheme="light" enableSystem={false}>
+      <Component {...pageProps} />
+    </ThemeProvider>
+  );
+};
+
+export default MyApp;
