@@ -1,16 +1,32 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js + NextUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "COS Notes",
+  description: "Short summaries for all cos modules.",
   navItems: [
     {
       label: "Home",
       href: "/",
     },
     {
+      label: "Cos 212",
+      href: "/cos212",
+    },
+    {
+      label: "Cos 216",
+      href: "/cos216",
+    },
+    {
       label: "Cos 214",
       href: "/cos214",
+    },
+    {
+      label: "Cos 226",
+      href: "/cos226",
+    },
+    {
+      label: "Cos 284",
+      href: "/cos284",
     },
   ],
   navMenuItems: [
