@@ -107,7 +107,7 @@ export default function Cos214Page() {
               alt="NextUI hero Image"
               src="Memento.png"
             />
-            <Tabs aria-label="Options" placement="start" radius="none">
+            <Tabs aria-label="Options" placement="start" radius="none" color="primary">
               <Tab key="photos" title="Memento">
                 <Card>
                   <CardBody>
@@ -149,7 +149,7 @@ export default function Cos214Page() {
               alt="NextUI hero Image"
               src="Template.png"
             />
-            <Tabs aria-label="Options" placement="start" radius="none">
+            <Tabs aria-label="Options" placement="start" radius="none" color="primary">
               <Tab key="photos" title="AbstractClass">
                 <Card>
                   <CardBody>
@@ -190,7 +190,7 @@ object.
               alt="NextUI hero Image"
               src="Prototype.png"
             />
-            <Tabs aria-label="Options" placement="start" radius="none">
+            <Tabs aria-label="Options" placement="start" radius="none" color="primary">
               <Tab key="photos" title="Prototype">
                 <Card>
                   <CardBody>
