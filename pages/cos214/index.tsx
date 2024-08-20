@@ -28,7 +28,7 @@ export default function Cos214Page() {
           <br />
           <p>
             Polymorphism is a concept in computer science that allows objects
-            to take on different forms or behaviors. It's a key component of object-oriented programming (OOP)
+            to take on different forms or behaviors. It’s a key component of object-oriented programming (OOP)
             and is derived from the Greek word meaning ’having multiple forms’
           </p>
           <br />
