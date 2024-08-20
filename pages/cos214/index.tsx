@@ -29,14 +29,14 @@ export default function Cos214Page() {
           <p>
             Polymorphism is a concept in computer science that allows objects
             to take on different forms or behaviors. It's a key component of object-oriented programming (OOP)
-            and is derived from the Greek word meaning "having multiple forms"
+            and is derived from the Greek word meaning ’having multiple forms’
           </p>
           <br />
           <p>
             Encapsulation is a fundamental concept in object-oriented programming (OOP)
             that involves bundling data and methods into a single unit.
             This unit can be a container, class, or object. Encapsulation can also refer to
-            limiting direct access to some of the data, such as an object's components
+            limiting direct access to some of the data, such as an object’s components
           </p>
           <br />
           <p>
@@ -99,7 +99,7 @@ export default function Cos214Page() {
             <h1 className={title()}>Memento</h1>
             <h1 className="text-4xl">Intent: </h1>
             <p>Without violating encapsulation, capture
-              and externalise an object’s internal state so
+              and externalise an objects internal state so
               that the object can be restored to this state
               later.</p>
             <Image
@@ -107,7 +107,7 @@ export default function Cos214Page() {
               alt="NextUI hero Image"
               src="Memento.png"
             />
-            <Tabs aria-label="Options" placement="start">
+            <Tabs aria-label="Options" placement="start" radius="none">
               <Tab key="photos" title="Memento">
                 <Card>
                   <CardBody>
@@ -149,7 +149,7 @@ export default function Cos214Page() {
               alt="NextUI hero Image"
               src="Template.png"
             />
-            <Tabs aria-label="Options" placement="start">
+            <Tabs aria-label="Options" placement="start" radius="none">
               <Tab key="photos" title="AbstractClass">
                 <Card>
                   <CardBody>
@@ -190,7 +190,7 @@ object.
               alt="NextUI hero Image"
               src="Prototype.png"
             />
-            <Tabs aria-label="Options" placement="start">
+            <Tabs aria-label="Options" placement="start" radius="none">
               <Tab key="photos" title="Prototype">
                 <Card>
                   <CardBody>
